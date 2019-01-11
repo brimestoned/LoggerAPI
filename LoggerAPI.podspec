@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license     = { :type => "Apache License, Version 2.0" }
   s.author     = "IBM"
   s.module_name  = 'LoggerAPI'
-  s.ios.deployment_target = "10.0"
+  s.platform     = :osx, "10.12"
   s.source   = { :git => "https://github.com/IBM-Swift/LoggerAPI.git", :tag => s.version }
   s.source_files = "Sources/LoggerAPI/*.swift"
 end
